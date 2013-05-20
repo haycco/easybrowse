@@ -1,0 +1,4 @@
+easybrowse
+==========
+
+eclipse plugin project
