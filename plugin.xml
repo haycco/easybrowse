@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.4"?>
+<plugin>
+	
+   <extension
+         point="org.eclipse.ui.actionSets">
+      <actionSet
+            id="org.hay.easybrowse.actionSet"
+            label="EasyBrowse Action Set"
+            visible="true">
+         <action
+               class="org.hay.easybrowse.actions.EasyBrowseAction"
+               icon="icons/openned_folder.gif"
+               id="org.hay.easybrowse.actions.EasyBrowseAction"
+               label="&amp;EasyBrowse Action"
+               toolbarPath="EasyBrowse"
+               tooltip="Easy Browser">
+         </action>
+      </actionSet>
+   </extension>
+   <extension
+         point="org.eclipse.ui.popupMenus">
+      <objectContribution
+            objectClass="org.eclipse.core.runtime.IAdaptable"
+            id="org.hay.easybrowse.popupMenus.contribution">
+         <action
+               label="Easy Browse"
+               icon="icons/openned_folder.gif"
+               class="org.hay.easybrowse.actions.EasyBrowseAction"
+               menubarPath="additions"
+               enablesFor="1"
+               id="org.hay.easybrowse.popupMenus.easyBrowseAction">
+         </action>
+      </objectContribution>
+   </extension>
+   <extension
+         point="org.eclipse.ui.preferencePages">
+      <page
+            name="Easy Browse"
+            class="org.hay.easybrowse.preferences.EasyBrowsePreferencePage"
+            id="org.hay.easybrowse.preferences.EasyExplorePreferencePage">
+      </page>
+   </extension>
+</plugin>
