@@ -1,18 +1,18 @@
-package org.haycco.easybrowse.actions;
+package org.haycco.nativeexplorer.actions;
 
 import org.eclipse.ui.IWorkbenchWindow;
 import org.eclipse.ui.IWorkbenchWindowActionDelegate;
 
 /**
- * @author haycco 2011-7-25 ионГ10:12:12
- * @version V1.0
+ * @author haycco
+ * @version 1.1
  */
-public class EasyBrowseAction extends AbstractEasyBrowseAction implements IWorkbenchWindowActionDelegate {
+public class NativeExplorerAction extends AbstractNativeExplorerAction implements IWorkbenchWindowActionDelegate {
     
 	/**
 	 * The constructor.
 	 */
-	public EasyBrowseAction() {
+	public NativeExplorerAction() {
 		
 	}
 	

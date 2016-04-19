@@ -5,16 +5,16 @@
    <extension
          point="org.eclipse.ui.actionSets">
       <actionSet
-            id="org.hay.easybrowse.actionSet"
-            label="EasyBrowse Action Set"
+            id="org.haycco.nativeexplorer.actionSet"
+            label="NativeExplorer Action Set"
             visible="true">
          <action
-               class="org.hay.easybrowse.actions.EasyBrowseAction"
+               class="org.haycco.nativeexplorer.actions.NativeExplorerAction"
                icon="icons/openned_folder.gif"
-               id="org.hay.easybrowse.actions.EasyBrowseAction"
-               label="&amp;EasyBrowse Action"
-               toolbarPath="EasyBrowse"
-               tooltip="Easy Browser">
+               id="org.haycco.nativeexplorer.actions.NativeExplorerAction"
+               label="&amp;NativeExplorer Action"
+               toolbarPath="NativeExplorer"
+               tooltip="Native Explorer">
          </action>
       </actionSet>
    </extension>
@@ -22,23 +22,23 @@
          point="org.eclipse.ui.popupMenus">
       <objectContribution
             objectClass="org.eclipse.core.runtime.IAdaptable"
-            id="org.hay.easybrowse.popupMenus.contribution">
+            id="org.haycco.nativeexplorer.popupMenus.contribution">
          <action
-               label="Easy Browse"
+               label="Native Explorer"
                icon="icons/openned_folder.gif"
-               class="org.hay.easybrowse.actions.EasyBrowseAction"
+               class="org.haycco.nativeexplorer.actions.NativeExplorerAction"
                menubarPath="additions"
                enablesFor="1"
-               id="org.hay.easybrowse.popupMenus.easyBrowseAction">
+               id="org.haycco.nativeexplorer.popupMenus.NativeExplorerAction">
          </action>
       </objectContribution>
    </extension>
    <extension
          point="org.eclipse.ui.preferencePages">
       <page
-            name="Easy Browse"
-            class="org.hay.easybrowse.preferences.EasyBrowsePreferencePage"
-            id="org.hay.easybrowse.preferences.EasyExplorePreferencePage">
+            name="Native Explorer"
+            class="org.haycco.nativeexplorer.preferences.NativeExplorerPreferencePage"
+            id="org.haycco.nativeexplorer.preferences.NativeExplorerPreferencePage">
       </page>
    </extension>
 </plugin>
