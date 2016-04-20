@@ -7,6 +7,8 @@ NativeExplorer is an Eclipse plugin to embed Windows Explorer and keep it in syn
 
 current version v1.1.0
 
+current version v1.1.0
+
 Features
 ============================
 sync with package explorer 
