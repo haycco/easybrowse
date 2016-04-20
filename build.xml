@@ -328,9 +328,12 @@
 	</target>
 
 	<target name="refresh" depends="init" if="eclipse.running" description="Refresh this folder.">
-		<eclipse.convertPath fileSystemPath="D:/annet/code/github/native-explorer" property="resourcePath"/>
+		<eclipse.convertPath fileSystemPath="${basedir}" property="resourcePath"/>
 		<eclipse.refreshLocal resource="${resourcePath}" depth="infinite"/>
 	</target>
+  
+  <target name="test" depends="init" description="test case.">
+  </target>
 
 	<target name="zip.plugin" depends="init" description="Create a zip containing all the elements for the plug-in: org.haycco.nativeexplorer.">
 		<delete dir="${temp.folder}"/>
