@@ -10,7 +10,7 @@
             visible="true">
          <action
                class="org.haycco.nativeexplorer.actions.NativeExplorerAction"
-               icon="icons/openned_folder.gif"
+               icon="icons/native_explorer.png"
                id="org.haycco.nativeexplorer.actions.NativeExplorerAction"
                label="&amp;NativeExplorer Action"
                toolbarPath="NativeExplorer"
@@ -25,7 +25,7 @@
             id="org.haycco.nativeexplorer.popupMenus.contribution">
          <action
                label="Native Explorer"
-               icon="icons/openned_folder.gif"
+               icon="icons/native_explorer.png"
                class="org.haycco.nativeexplorer.actions.NativeExplorerAction"
                menubarPath="additions"
                enablesFor="1"

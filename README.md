@@ -5,7 +5,11 @@ eclipse plugin project
 
 NativeExplorer is an Eclipse plugin to embed Windows Explorer and keep it in sync with your work. 
 
-current version v1.1.0 [Download](./dist/plugins/org.haycco.nativeexplorer_1.1.0.201604192322.jar)
+Current v1.2.0 [Download](./dist/plugins/org.haycco.nativeexplorer_1.2.0.201604192322.jar)
+
+<p align="center">
+	<img src="logo.png" alt="Native Explorer" width="128">
+</p>
 
 Features
 ============================
@@ -20,7 +24,15 @@ Usage
 copy native explorer plugin (dist/plugins/org.haycco.nativeexplorer_*.jar) to you eclipse directory by
 * [${USER_LOCATION}\eclipse\dropins] folder understore
 
+Toolbar icon
+
+![Toolbar icon](toolbar_icon.png)
+
+Right Click Menus icon
+
+![Right Click Menus icon](right_click_menus_icon.png)
+
 Requirements
 ============================
-* [Java Platform (JDK) 5 above]
-* [Eclpise 3 above]
+* JDK 5 above
+* Eclpise 3 above
