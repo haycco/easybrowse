@@ -22,7 +22,6 @@ import org.haycco.nativeexplorer.NativeExplorerPlugin;
 
 /**
  * @author haycco
- * @version 1.1
  */
 public abstract class AbstractNativeExplorerAction implements IActionDelegate {
 

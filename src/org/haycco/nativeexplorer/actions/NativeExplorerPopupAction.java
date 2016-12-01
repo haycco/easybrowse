@@ -6,7 +6,6 @@ import org.eclipse.ui.IWorkbenchPart;
 
 /**
  * @author haycco
- * @version 1.1
  */
 public class NativeExplorerPopupAction extends AbstractNativeExplorerAction implements IObjectActionDelegate {
 	

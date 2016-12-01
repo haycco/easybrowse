@@ -5,7 +5,6 @@ import org.eclipse.ui.IWorkbenchWindowActionDelegate;
 
 /**
  * @author haycco
- * @version 1.1
  */
 public class NativeExplorerAction extends AbstractNativeExplorerAction implements IWorkbenchWindowActionDelegate {
     

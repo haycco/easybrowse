@@ -8,7 +8,6 @@ import org.haycco.nativeexplorer.NativeExplorerPlugin;
 
 /**
  * @author haycco
- * @version 1.1
  */
 public class NativeExplorerPreferencePage extends FieldEditorPreferencePage implements IWorkbenchPreferencePage {
 

@@ -14,7 +14,6 @@ import org.osgi.framework.BundleContext;
 
 /**
  * @author haycco
- * @version 1.1
  */
 public class NativeExplorerPlugin extends AbstractUIPlugin {
 
