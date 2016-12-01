@@ -27,10 +27,12 @@ copy native explorer plugin (dist/plugins/org.haycco.nativeexplorer_*.jar) to yo
 Toolbar icon
 
 ![Toolbar icon](toolbar_icon.png)
+![Open With Toolbar icon](open_with_toolbar.gif)
 
 Right Click Menus icon
 
 ![Right Click Menus icon](right_click_menus_icon.png)
+![Open With Right Click Menus icon](open_with_right_click.gif)
 
 Requirements
 ============================
